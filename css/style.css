@@ -5,16 +5,17 @@
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
   background-color: white;
   border-radius: 10px;
+  font-family: "Poppins", serif;
 }
 
 body {
-  background-color: #e7eaf6;
+  background-color: #ffcbcb;
 }
 
 h1 {
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
+  color: ##132743;
 }
 
 select {
@@ -23,22 +24,21 @@ select {
   width: 100%;
   padding: 10px;
   border-radius: 4px;
-  color: #113f67;
+  color: #132743;
 }
 
 h2 {
   margin: 0 0 10px;
   font-size: 38px;
-  color: ##113f67;
+  color: #132743;
 }
 
 .city {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-  padding: 10px 0;
-  border-bottom: 2px #38598b dotted;
-  color: #38598b;
+  padding: 15px 0;
+  color: #132743;
 }
 
 .time {
@@ -49,9 +49,11 @@ h2 {
   font-size: 10px;
   line-height: 20px;
   vertical-align: middle;
-  color: #a2a8d3;
+  color: #132743;
 }
 
 footer {
   text-align: center;
+  font-size: 16px;
+  font-family: "Poppins", serif;
 }
