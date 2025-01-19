@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="link"
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
@@ -18,13 +22,20 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
+
       <select name="" id="city">
         <option value="select">Select a city..</option>
         <option value="current">My current location</option>
-        <option value="Europe/Lisbon">Lisbon</option>
-        <option value="Europe/London">London</option>
+        <option value="Europe/Oslo">Oslo</option>
+        <option
+          value="Pacific/Auckland
+"
+        >
+          Auckland
+        </option>
         <option value="America/New_York">New York</option>
       </select>
+
       <div id="cities">
         <div class="city" id="london">
           <div>
@@ -37,6 +48,14 @@
         <div class="city" id="lisbon">
           <div>
             <h2>Lisbon</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris</h2>
             <div class="date"></div>
           </div>
           <div class="time"></div>
